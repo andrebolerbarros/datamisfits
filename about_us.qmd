@@ -1,0 +1,24 @@
+---
+title: "About us"
+format:
+  html:
+    css: styles.css
+---
+
+:::{.grid}
+
+::: {.g-col-6}
+![Author 1](assets/images/author1.jpg){.author-image width=150px}
+
+### Author 1
+Author 1 is an experienced writer and researcher with expertise in literature, science, and modern technologies.
+:::
+
+::: {.g-col-6}
+![Author 2](assets/images/author2.jpg){.author-image width=150px}
+
+### Author 2
+Author 2 specializes in AI, data science, and their societal impacts. Their research spans over a decade in the field.
+:::
+
+:::

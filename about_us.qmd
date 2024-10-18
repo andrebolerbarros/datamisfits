@@ -31,7 +31,8 @@ João likes to build plumbing for genomic data. He reads reads like it's the mat
 :::
 ::: {.g-col-8}
 ### André Barros
-André lives and breathes statistics, R and good old-fashioned internet memes.
+André is the master of the p-value, captain of the multiple test correction, and commander of random effects.
+<!-- lives and breathes statistics, R and good old-fashioned internet memes. -->
 :::
 
 <!-- hugo -->

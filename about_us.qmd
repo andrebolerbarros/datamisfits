@@ -7,18 +7,49 @@ format:
 
 :::{.grid}
 
-::: {.g-col-6}
-![Author 1](assets/images/author1.jpg){.author-image width=150px}
-
-### Author 1
-Author 1 is an experienced writer and researcher with expertise in literature, science, and modern technologies.
+<!-- Tiago -->
+::: {.g-col-4}
+![](assets/images/tiagopaixao_small.jpg){.author-image width=150px}
+:::
+::: {.g-col-8}
+### Tiago Paixão
+Tiago loves modelling. The mathematical kind, not the fashion kind.
 :::
 
-::: {.g-col-6}
-![Author 2](assets/images/author2.jpg){.author-image width=150px}
+<!-- joao -->
+::: {.g-col-8}
+### João Costa
+João likes to build plumbing for genomic data. He reads reads like it's the matrix.
+:::
+::: {.g-col-4}
+![](assets/images/joaocosta_small.jpg){.author-image width=150px}
+:::
 
-### Author 2
-Author 2 specializes in AI, data science, and their societal impacts. Their research spans over a decade in the field.
+<!-- andre -->
+::: {.g-col-4}
+![](assets/images/andrebarros_small.jpg){.author-image width=150px}
+:::
+::: {.g-col-8}
+### André Barros
+André lives and breathes statistics, R and good old-fashioned internet memes.
+:::
+
+<!-- hugo -->
+::: {.g-col-8}
+### Hugo Lainé
+Hugo never shies away from differently express his opinions.
+:::
+::: {.g-col-4}
+![](assets/images/hugolaine_small.jpg){.author-image width=150px}
+:::
+
+<!-- maria -->
+::: {.g-col-4}
+![](assets/images/mariaguedes_small.jpg){.author-image width=150px}
+:::
+::: {.g-col-8}
+### Maria Guedes
+Maria likes to put things (and people) in their place.
 :::
 
 :::

@@ -3,5 +3,17 @@
 .author-image {
     border-radius: 50%;    /* Makes the image circular */
     margin-right: 20px;    /* Adds some space between image and text */
+    float: center;           /* Aligns the image to the left of the text */
+  }
+
+.author-image-left {
+    border-radius: 50%;    /* Makes the image circular */
+    margin-right: 20px;    /* Adds some space between image and text */
     float: left;           /* Aligns the image to the left of the text */
+  }
+
+.author-image-right {
+    border-radius: 50%;    /* Makes the image circular */
+    margin-right: 20px;    /* Adds some space between image and text */
+    float: right;           /* Aligns the image to the left of the text */
   }

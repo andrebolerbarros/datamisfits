@@ -38,7 +38,7 @@ André is the master of the p-value, captain of the multiple test correction, an
 <!-- hugo -->
 ::: {.g-col-8}
 ### Hugo Lainé
-Hugo never shies away from differently express his opinions.
+Hugo never shies away from differently expressing genes and opinions.
 :::
 ::: {.g-col-4}
 ![](assets/images/hugolaine_small.jpg){.author-image width=150px}

@@ -1,0 +1,17 @@
+---
+title: "My Post"
+description: "Post description"
+author: "Fizz McPhee"
+date: "5/22/2021"
+draft: true
+categories: 
+   - bioinformatics
+   - python
+   - data analysis
+freeze: true
+---
+
+
+# My Blog post
+
+this is a template for a blog post. use `quarto preview` to preview and change draft: true to false (or delete it) in the metadata above to publish. Then quarto render and you're good to go

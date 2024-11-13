@@ -6,3 +6,8 @@ title: ""
 ![](assets/datamisfits_transp2.png)
 :::
 
+:::{.text-center}
+:::{.btn-group}
+[Blog](blog.html){.btn .btn-primary}
+:::
+:::

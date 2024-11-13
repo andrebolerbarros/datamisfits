@@ -41,6 +41,6 @@ Now, it is very complicated to go through each file and manually extract that in
 
 The script is available via this link: https://gist.github.com/andrebolerbarros/92b8f67c691d536bc920a5fb6ce97479. To work with the script, you only need to give it the path to your fastq files (example `-d "fastq/"`) and then the termination of the files you want to check (`-t .fastq.gz`). You **always** need to give both arguments to the function.
 
-Now, you can streamline this simple, yet laborious process!!
+Now, you can streamline this simple, yet laborious process!
 
 André

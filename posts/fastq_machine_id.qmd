@@ -3,7 +3,7 @@ title: "Rage For the machine - Getting machine ID and run ID out of your fasts"
 description: "A post to get the most basic, yet most important information out of your fastq files"
 author: "André Barros"
 date: "today"
-draft: true
+draft: false
 categories: 
    - bioinformatics
    - bash

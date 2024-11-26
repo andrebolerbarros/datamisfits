@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "The Data Misfits",
     "section": "",
-    "text": "My Post\n\n\n\n\n\nPost description\n\n\n\n\n\nMay 22, 2021\n\n\nFizz McPhee\n\n\n\n\n\n\nNo matching items"
+    "text": "No matching items"
   },
   {
     "objectID": "about_us.html",
@@ -19,12 +19,5 @@
     "title": "The Data Misfits",
     "section": "",
     "text": "Blog"
-  },
-  {
-    "objectID": "posts/template_qmd.html",
-    "href": "posts/template_qmd.html",
-    "title": "My Post",
-    "section": "",
-    "text": "My Blog post\nthis is a template for a blog post. use quarto preview to preview and change draft: true to false (or delete it) in the metadata above to publish. Then quarto render and you’re good to go"
   }
 ]

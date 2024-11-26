@@ -1,0 +1,46 @@
+---
+title: "Rage For the machine - Getting machine ID and run ID out of your fasts"
+description: "A post to get the most basic, yet most important information out of your fastq files"
+author: "André Barros"
+date: "today"
+draft: true
+categories: 
+   - bioinformatics
+   - bash
+   - quality control
+freeze: true
+---
+#
+
+One of simpliest steps in any bioinformatics analysis is to know exactly the machine was used to sequence your samples, as well as to know in how many batchs (different runs) are your samples divided?
+
+In the majority of cases, the facility or service you have used provide that information. However, in some cases - I am thinking about curation of public datasets, for example - it may be of key importance to have that information. Different machines may have different standard coverage, or quality scores structured in a different fashion (thinking about the case of NOVASeq) that can greatly impact your analysis.
+
+Another factor is the number of batches or sequencing runs you have on your dataset. This can have an impact in every step of your analysis - from quality control to downstream analysis. For example, if you have a batch with low sequencing depth, this can impact the quality control and filtering you may perform, as well as downstream analysis, such as differential gene expression or variant calling.
+
+As you probably are aware, both of these pieces of information are available in the header of every sequence in your fastq file. For example, when exploring a fastq, the first line before every sequence will have a similar format to this one: (example taken from Wikipedia)
+
+```
+@EAS139:136:FC706VJ:2:2104:15343:197393 1:Y:18:ATCACG
+
+```
+In where, one can find the following information:
+- **EAS139:** the unique instrument name
+- **136:** the run id
+- **FC706VJ:** the flowcell id
+- **2:** flowcell lane
+- **2104:**	tile number within the flowcell lane
+- **15343:** x'-coordinate of the cluster within the tile
+- **197393:** 'y'-coordinate of the cluster within the tile
+- **1:** the member of a pair, 1 or 2 (paired-end or mate-pair reads only)
+- **Y:**	Y if the read is filtered (did not pass), N otherwise
+- **18:** 0 when none of the control bits are on, otherwise it is an even number
+- **ATCACG:** index sequence
+
+Now, it is very complicated to go through each file and manually extract that information, especially in big datasets. That's why we have been working on bash script (`fastq_machine_run.sh`) to get the machine ID and run ID out of your fastq files. This script will go through each file, extract the machine ID (1st position) and run ID (2nd position) and print them out in a tab-formated .txt file (at the moment is called `output.txt`). At the same time, will output to the terminal window a list of **unique machine IDs** and **unique run IDs** for the whole dataset - that way, you already have an idea if you need to go deep down into the `output` file.
+
+The script is available via this link: https://gist.github.com/andrebolerbarros/92b8f67c691d536bc920a5fb6ce97479. To work with the script, you only need to give it the path to your fastq files (example `-d "fastq/"`) and then the termination of the files you want to check (`-t .fastq.gz`). You **always** need to give both arguments to the function.
+
+Now, you can streamline this simple, yet laborious process!!
+
+André

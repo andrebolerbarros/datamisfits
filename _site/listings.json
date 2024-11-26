@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/template_qmd.html",
       "/posts/fastq_machine_id.html"
     ]
   }

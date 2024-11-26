@@ -2,7 +2,8 @@
 title: "My Post"
 description: "Post description"
 author: "Fizz McPhee"
-date: "5/22/2021"
+date: 31 01 2023
+date-format: long
 draft: true
 categories: 
    - bioinformatics

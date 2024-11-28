@@ -2,7 +2,7 @@
 title: "My Post"
 description: "Post description"
 author: "Fizz McPhee"
-date: 31 01 2023
+date: "last-modified"
 date-format: long
 draft: true
 categories: 

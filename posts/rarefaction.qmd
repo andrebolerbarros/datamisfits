@@ -1,0 +1,24 @@
+---
+title: "Rarefaction - Is it a good idea?"
+description: "Rarefaction in microbiome studies - Is it a good idea or just a bad practice? What are the alternatives?"
+author: "André Barros"
+date: "last-modified"
+date-format: long
+draft: true
+categories: 
+   - bioinformatics
+   - python
+   - data analysis
+freeze: true
+---
+
+
+# Rarefaction - Is it a good idea?
+
+Today, I came across an Editorial from the journal <i>Microbiome</i> on concepts and recommendations in microbiota studies, including data analysis. To my surprise, I found the following sentence: 
+
+**"Rarefaction techniques are recommended to be used for specific analyses that are known to be sensitive to sequencing depth".**
+
+Why do I say this then? 
+
+<img>https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=3974642_pcbi.1003531.g004.jpg</img>
